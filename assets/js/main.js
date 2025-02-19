@@ -86,8 +86,8 @@
     speed: 600,
     loop: true,
     autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
+      delay: 2500,
+      disableOnInteraction: true
     },
     slidesPerView: 'auto',
     pagination: {

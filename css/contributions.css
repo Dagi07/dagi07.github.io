@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.graph {
+  display: grid;
+  grid-template-columns: repeat(53, 12px);
+  grid-auto-rows: 12px;
+  gap: 3px;
+  margin-top: 20px;
+}
+
+.day {
+  width: 12px;
+  height: 12px;
+  background-color: #ebedf0; /* Default color for no contributions */
+  border-radius: 2px;
+  transition: background-color 0.2s;
+}
+
+.level-1 { background-color: #c6e48b; }
+.level-2 { background-color: #7bc96f; }
+.level-3 { background-color: #239a3b; }
+.level-4 { background-color: #196127; }

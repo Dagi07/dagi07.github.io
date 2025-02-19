@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "chart.js": "^4.4.7",
+    "dotenv": "^16.4.7",
+    "requirejs": "^2.3.7"
+  }
+}

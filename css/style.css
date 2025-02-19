@@ -3178,7 +3178,7 @@ h6 {
   vertical-align: middle;
 }
 .single-brand-item img {
-  max-width: 80px;
+  max-width: 220px;
   margin: 0 auto;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
@@ -4302,5 +4302,22 @@ html {
   }
 
   #contact {
+  }
+}
+
+.contributions_area {
+  margin: 200px 0; display: flex; justify-content: space-between;
+}
+
+.contributions_area div {
+  margin: 0 30px;
+}
+
+.section_small_gap {
+  padding: 100px 0;
+}
+@media (max-width: 1199px) {
+  .section_small_gap {
+    padding: 60px 0;
   }
 }
