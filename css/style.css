@@ -3061,6 +3061,7 @@ h6 {
 ============================================================================================ */
 .about_area {
   position: relative;
+  padding-bottom: 50px;
 }
 .about_area .main_title {
   margin-bottom: 0px;
@@ -4311,6 +4312,15 @@ html {
 
 .contributions_area div {
   margin: 0 30px;
+}
+
+@media (max-width: 992px) {
+  .contributions_area {
+    margin: 100px 0; display: flex; flex-direction: column; justify-content: space-between;
+  }
+  .contributions_area div {
+    margin: 20px 0px;
+  }
 }
 
 .section_small_gap {
